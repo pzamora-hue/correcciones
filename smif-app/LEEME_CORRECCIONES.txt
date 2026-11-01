@@ -1,0 +1,5 @@
+ARCHIVOS CORREGIDOS (copiar sobre tu carpeta smif-app, aceptando reemplazar):
+  .env                      (nuevo: SESSION_SECRET ya generado; EDITA DB_PASSWORD)
+  app.js                    (no se cierra sin SESSION_SECRET en desarrollo; errores de BD con consejo)
+  public/js/dashboard.js    (la tabla "Cursos disponibles" del estudiante ahora carga)
+  public/js/clase.js        (clase inexistente / error ya no rompe la página)
